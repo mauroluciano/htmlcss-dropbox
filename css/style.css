@@ -79,7 +79,7 @@ header {
 
 /* close jumbotron*/
 
-/*medium*/
+/*business plan*/
 
 .text-medium {
   margin: 30px 0;
@@ -91,8 +91,10 @@ header {
   margin: 20px;
   width: calc(100% / 3 - 40px);
   background-color: red;
-  border: 1;
+  border: 1px lightgray solid;
+  height: 800px;
 }
 
-.cards h3 {
-}
+/*close business plan*/
+
+/*enterprice*/
