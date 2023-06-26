@@ -10,3 +10,11 @@
   width: 100vh;
   margin: 0 auto;
 }
+
+.flex {
+  display: flex;
+}
+
+debug {
+  border: 1px dashed red;
+}
