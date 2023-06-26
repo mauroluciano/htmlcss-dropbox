@@ -42,9 +42,9 @@ header {
 }
 
 .medium {
-  width: 1200px;
+  width: 900px;
   margin: 0 auto;
-  background-color: forestgreen;
+  background-color: rgb(84, 64, 187);
   height: 100%;
 }
 
@@ -79,3 +79,5 @@ header {
 }
 
 /* close jumbotron*/
+
+/*jumbotron*/
