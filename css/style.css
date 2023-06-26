@@ -42,7 +42,7 @@ header {
 }
 
 .medium {
-  width: 900px;
+  width: 1000px;
   margin: 0 auto;
   background-color: rgb(84, 64, 187);
   height: 100%;
@@ -80,4 +80,10 @@ header {
 
 /* close jumbotron*/
 
-/*jumbotron*/
+/*medium*/
+
+.text-medium {
+  margin: 30px 0;
+  font-size: 40px;
+  font-weight: bold;
+}
