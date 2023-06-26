@@ -98,3 +98,20 @@ header {
 /*close business plan*/
 
 /*enterprice*/
+
+/*partner*/
+
+.box-partner {
+  width: 100%;
+  height: 30vh;
+}
+
+.partner-sx {
+  width: 60%;
+  background-color: aqua;
+}
+
+.partner-dx {
+  width: 40%;
+  background-color: lightcoral;
+}
