@@ -31,10 +31,16 @@
 
 header {
   background-color: #0023db;
-  height: 93px;
+  height: 13vh;
 }
 
 .jumbotron {
   background-color: #b4d0e7;
-  height: 7vh;
+  height: 80vh;
+}
+
+.content {
+  width: 1200px;
+  height: 515px;
+  margin: 0 auto;
 }
