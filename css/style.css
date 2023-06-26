@@ -16,7 +16,7 @@
 }
 
 .debug {
-  border: 1px dashed red;
+  border: 2px dashed red;
 }
 
 .between {
@@ -31,16 +31,51 @@
 
 header {
   background-color: #0023db;
-  height: 13vh;
+  height: 95px;
 }
+
+.large {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: forestgreen;
+  height: 100%;
+}
+
+.medium {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: forestgreen;
+  height: 100%;
+}
+
+/*close section*/
+
+/*jumbotron*/
 
 .jumbotron {
   background-color: #b4d0e7;
-  height: 80vh;
+  height: 500px;
 }
 
-.content {
-  width: 1200px;
-  height: 515px;
-  margin: 0 auto;
+.text-jumbo {
+  margin: 30px auto;
+  font-size: 80px;
+  font-weight: bold;
 }
+
+.box-jumbo {
+  width: 100%;
+  height: 30vh;
+}
+
+.jumbo-sx {
+  width: 40%;
+  background-color: aqua;
+}
+
+.jumbo-dx {
+  width: 60%;
+  background-color: lightcoral;
+}
+
+/* close jumbotron*/
