@@ -56,14 +56,14 @@ header {
 }
 
 .large {
-  width: 1200px;
+  width: 85vw;
   margin: 0 auto;
   background-color: forestgreen;
   height: 100%;
 }
 
 .medium {
-  width: 1000px;
+  width: 70vw;
   margin: 0 auto;
   height: 100%;
 }
@@ -128,6 +128,10 @@ header {
   height: 600px;
 }
 
+.cards .business-img {
+  width: 100%;
+}
+
 /*close business plan*/
 
 /*enterprise*/
@@ -168,10 +172,21 @@ header {
   background-color: aqua;
 }
 
-.cards .business-img {
-  width: 100%;
+/*close box-business*/
+
+/*open box designit*/
+
+.designit {
+  width: calc(100% / 3);
 }
 
-.nav_menu {
+.designit-box {
+  width: calc(100% / 2);
+  background-color: greenyellow;
+  height: 200px;
+}
+
+.designit-box img {
   align-items: center;
+  width: 40%;
 }
