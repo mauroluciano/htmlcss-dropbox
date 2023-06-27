@@ -199,3 +199,18 @@ header {
 }
 
 /*close box designit*/
+
+/*open free-trial*/
+
+.free {
+  background-color: #b4d0e7;
+  height: 200px;
+}
+
+.free-trial {
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+/*close free-trial*/
