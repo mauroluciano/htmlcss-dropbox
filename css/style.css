@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+body {
+  font-family: "Open Sans";
+}
+
 .container {
   width: 100vw;
   margin: 0 auto;
@@ -32,9 +36,10 @@ img {
 }
 
 .text-big {
-  margin: 30px auto;
+  margin: 0 auto;
   font-size: 80px;
   font-weight: bold;
+  padding: 30px 0;
 }
 
 .text-medium {
@@ -49,16 +54,23 @@ img {
   font-weight: bold;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 /*Section*/
 
 header {
-  height: 95px;
+  height: 10vh;
 }
 
 .large {
   width: 85vw;
   margin: 0 auto;
-  background-color: forestgreen;
   height: 100%;
 }
 
@@ -66,6 +78,12 @@ header {
   width: 70vw;
   margin: 0 auto;
   height: 100%;
+}
+
+footer {
+  background-color: black;
+  height: 300px;
+  color: white;
 }
 
 /*close section*/
@@ -84,6 +102,22 @@ header {
 
 .nav_menu li a {
   text-decoration: none;
+  color: black;
+}
+
+.nav_menu li a:hover {
+  background-color: #f2eee8;
+  height: 10vh;
+}
+
+.nav_menu input {
+  background-color: #0061ff;
+  padding: 5px 12px;
+  color: white;
+}
+
+.nav_menu input:hover {
+  opacity: 0.8;
 }
 
 /* close header */
@@ -92,7 +126,7 @@ header {
 
 .jumbotron {
   background-color: #b4d0e7;
-  height: 500px;
+  height: 600px;
 }
 
 .text-jumbo {
@@ -106,13 +140,24 @@ header {
   height: 30vh;
 }
 
+.box-jumbo input {
+  background-color: #0061ff;
+  padding: 7px 12px;
+  color: white;
+  border: none;
+  margin-top: 30px;
+}
+
+.box-jumbo input:hover {
+  opacity: 0.8;
+}
+
 .jumbo-sx {
-  width: 40%;
-  background-color: aqua;
+  width: 35%;
 }
 
 .jumbo-dx {
-  width: 60%;
+  width: 65%;
   background-color: lightcoral;
 }
 
@@ -214,3 +259,19 @@ header {
 }
 
 /*close free-trial*/
+
+/*open footer*/
+
+.footer-menu {
+  align-items: center;
+  margin: 0 auto;
+}
+
+.footer-menu li {
+  list-style: none;
+  justify-content: center;
+}
+
+.footer-menu a {
+  color: white;
+}
