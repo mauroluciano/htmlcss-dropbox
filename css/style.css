@@ -8,6 +8,7 @@
 
 body {
   font-family: "Open Sans";
+  font-size: 13px;
 }
 
 .container {
@@ -43,7 +44,7 @@ img {
 }
 
 .text-medium {
-  margin: 30px 0;
+  margin: 10px 0;
   font-size: 40px;
   font-weight: bold;
 }
@@ -69,15 +70,14 @@ header {
 }
 
 .large {
-  width: 85vw;
+  width: 80vw;
   margin: 0 auto;
   height: 100%;
 }
 
 .medium {
-  width: 70vw;
+  width: 65vw;
   margin: 0 auto;
-  height: 100%;
 }
 
 footer {
@@ -114,6 +114,7 @@ footer {
   background-color: #0061ff;
   padding: 5px 12px;
   color: white;
+  border: none;
 }
 
 .nav_menu input:hover {
@@ -138,6 +139,7 @@ footer {
 .box-jumbo {
   width: 100%;
   height: 30vh;
+  flex-direction: row;
 }
 
 .box-jumbo input {
@@ -145,7 +147,7 @@ footer {
   padding: 7px 12px;
   color: white;
   border: none;
-  margin-top: 30px;
+  margin: 30px 0;
 }
 
 .box-jumbo input:hover {
@@ -158,28 +160,94 @@ footer {
 
 .jumbo-dx {
   width: 65%;
-  background-color: lightcoral;
 }
 
 /* close jumbotron*/
 
 /*business plan*/
 
+.box-cards {
+  width: 100%;
+}
+
 .cards {
-  margin: 20px;
+  margin-top: 30px;
   width: calc(100% / 3 - 40px);
-  background-color: lightgreen;
   border: 1px lightgray solid;
-  height: 600px;
+  height: 700px;
+  flex-direction: column;
+}
+
+.cards div {
+  padding: 20px;
+}
+
+.cards input {
+  background-color: #0061ff;
+  padding: 7px 12px;
+  color: white;
+  border: none;
 }
 
 .cards .business-img {
   width: 100%;
 }
 
+.cards li {
+}
+.business-text {
+  margin-top: 100px;
+}
+
+.button-business p {
+  margin-right: 20px;
+}
+
+.button-business input {
+  margin-right: 10px;
+}
+
+.business-title {
+  text-align: center;
+}
+
+.profile-type {
+  font-size: 30px;
+  font-weight: bold;
+}
+
 /*close business plan*/
 
 /*enterprise*/
+
+.enterprise {
+  flex-direction: column;
+  border: 1px lightgray solid;
+  margin-top: 30px;
+}
+
+.enterprise-box {
+  width: 100%;
+  padding: 20px;
+}
+
+.enterprise-card {
+  width: calc(100% / 2 - 40px);
+  margin: 20px;
+}
+
+.enterprise-title {
+  align-self: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.enterprise input {
+  background-color: #0061ff;
+  padding: 7px 12px;
+  color: white;
+  border: none;
+}
 
 /*partner*/
 
@@ -220,11 +288,6 @@ footer {
 /*close box-business*/
 
 /*open box designit*/
-
-.jumbotron {
-  background-color: #b4d0e7;
-  height: 500px;
-}
 
 .designit {
   width: calc(100% / 3);
