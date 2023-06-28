@@ -236,6 +236,10 @@ footer {
   margin: 20px;
 }
 
+.entreprise-sub {
+  font-weight: bold;
+}
+
 .enterprise-title {
   align-self: center;
   justify-content: center;
@@ -247,6 +251,16 @@ footer {
   padding: 7px 12px;
   color: white;
   border: none;
+  margin: 20px;
+}
+
+.enterprise input:hover {
+  opacity: 0.8;
+}
+
+.enterprise-solution {
+  width: 70%;
+  margin: 20px;
 }
 
 /*partner*/
@@ -258,7 +272,6 @@ footer {
 
 .partner-sx {
   width: 60%;
-  background-color: lightcoral;
 }
 
 .partner-dx {
