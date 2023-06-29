@@ -184,9 +184,10 @@ footer {
 
 .cards input {
   background-color: #0061ff;
-  padding: 7px 12px;
+  padding: 10px 14px;
   color: white;
   border: none;
+  margin: 0 auto;
 }
 
 .cards .business-img {
@@ -310,6 +311,7 @@ footer {
 .message {
   width: 70%;
   margin: 100px 0;
+  flex-direction: column;
 }
 
 /*close message*/
@@ -347,7 +349,24 @@ footer {
   padding-top: 30px;
 }
 
+.free-trial input {
+  background-color: #ffffff;
+  padding: 7px 12px;
+  color: black;
+  border: none;
+  margin: 20px;
+}
+
+.free-trial input:hover {
+  background-color: #0061ff;
+  color: white;
+}
+
 /*close free-trial*/
+
+/*open faq*/
+
+/*close faq*/
 
 /*open footer*/
 
