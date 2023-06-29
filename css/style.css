@@ -125,6 +125,10 @@ footer {
 
 /*jumbotron*/
 
+.content-jumbo {
+  justify-content: center;
+}
+
 .jumbotron {
   background-color: #b4d0e7;
   height: 600px;
@@ -140,6 +144,7 @@ footer {
   width: 100%;
   height: 30vh;
   flex-direction: row;
+  position: relative;
 }
 
 .box-jumbo input {
@@ -162,6 +167,12 @@ footer {
   width: 65%;
 }
 
+.arrow {
+  bottom: -100px;
+  font-size: 25px;
+  position: absolute;
+}
+
 /* close jumbotron*/
 
 /*business plan*/
@@ -176,6 +187,7 @@ footer {
   border: 1px lightgray solid;
   height: 700px;
   flex-direction: column;
+  min-width: min-content;
 }
 
 .cards div {
@@ -302,6 +314,7 @@ footer {
   margin-top: 20px;
   width: calc(100% / 3 - 40px);
   flex-direction: column;
+  min-width: min-content;
 }
 
 /*close box-business*/
@@ -312,29 +325,69 @@ footer {
   width: 70%;
   margin: 100px 0;
   flex-direction: column;
+  min-width: fit-content;
 }
 
 /*close message*/
 
-/*open box designit*/
+/*open box company*/
 
-.designit {
+.company {
   width: calc(100% / 3);
+  background-color: #f5f5f5;
 }
 
-.designit-box {
+.company-box {
   width: calc(100% / 2);
   height: 200px;
 }
 
-.designit-box img {
+.company-box img {
   align-items: center;
-  width: 50%;
   margin: 0 auto;
   height: auto;
+  color: white;
+  filter: invert(100%);
+  transform: scale(0.5);
 }
 
-/*close box designit*/
+.designit {
+  background-color: #a2d39b;
+}
+
+.border {
+  box-shadow: inset 10px 10px 10px 10px #74a16e;
+}
+
+.arizona {
+  background-color: #61082b;
+}
+
+.florida {
+  background-color: #0093ce;
+}
+
+.topps {
+  background-color: #ff1c1c;
+}
+
+.bicycle {
+  background-color: #d5001f;
+}
+
+.hearst {
+  background-color: #b4d0e7;
+}
+
+.lonely {
+  background-color: #0d2481;
+}
+
+.clear {
+  background-color: #ffd830;
+}
+
+/*close box company*/
 
 /*open free-trial*/
 
@@ -365,6 +418,10 @@ footer {
 /*close free-trial*/
 
 /*open faq*/
+
+.faq {
+  margin: 20px;
+}
 
 /*close faq*/
 
